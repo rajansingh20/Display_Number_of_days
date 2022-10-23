@@ -37,5 +37,5 @@ int main()
     date dt1={t1,m1,s1};
     date dt2={t2,m2,s2};
     cout<<"Difference between two dates is: "<<getdifference(dt1,dt2);
-    getch();
+    return 0;
 }
