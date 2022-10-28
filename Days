@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+#include<math.h>
 using namespace std;
 struct date
 {
@@ -28,13 +29,13 @@ int getdifference(date dt1,date dt2)
 int main()
 {
     int t1,m1,s1;
-    cout<<"Enter start date(DD MM YYYY): ";
+    cout<<"Enter start date(DD MM YYYY)= ";
     cin>>t1>>m1>>s1;
     int t2,m2,s2;
-    cout<<"Enter end date(DD MM YYYY): ";
+    cout<<"Enter end date(DD MM YYYY)= ";
     cin>>t2>>m2>>s2;
     date dt1={t1,m1,s1};
     date dt2={t2,m2,s2};
-    cout<<"Difference between two dates is: "<<getdifference(dt1,dt2);
+    cout<<"Difference between two dates is= "<<getdifference(dt1,dt2);
     return 0;
 }
