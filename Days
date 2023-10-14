@@ -3,6 +3,8 @@
 #include<math.h>
 #include<string.h>
 #include<algorithm>
+#include<string>
+
 using namespace std;
 struct date
 {
