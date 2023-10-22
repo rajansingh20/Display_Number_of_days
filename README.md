@@ -1,4 +1,4 @@
-A program which shows the days from the  start of year to date specified. Hold the number of days for  each month in an array. Allow the user to enter the  month and the day of  the year. Then the program  should display the total days till the day.
+# A program which shows the days from the  start of year to date specified. Hold the number of days for  each month in an array. Allow the user to enter the  month and the day of  the year. Then the program  should display the total days till the day.
 
 #include <bits/stdc++.h>
 #include <iostream>
